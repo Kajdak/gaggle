@@ -4,6 +4,6 @@ class LogJob
   sidekiq_options retry: 5
 
   def perform(data)
-    Log.create(ip: data[:ip], input: data[:input])
+    Log.create!(ip: data[:ip], input: data[:input])
   end
 end

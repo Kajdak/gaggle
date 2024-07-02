@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root 'articles#index'
 
+  resources :analytics
+
   resources :articles do
     collection do
       post :search
