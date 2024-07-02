@@ -18,3 +18,5 @@
 //= require popper
 //= require bootstrap
 import "@hotwired/turbo-rails"
+import "chartkick"
+import "Chart.bundle"

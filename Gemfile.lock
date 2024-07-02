@@ -121,6 +121,8 @@ GEM
     ffi (1.17.0-x86_64-linux-gnu)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    groupdate (6.4.0)
+      activesupport (>= 6.1)
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.1)
@@ -357,6 +359,7 @@ DEPENDENCIES
   chartkick (~> 5.0)
   coffee-rails
   debug
+  groupdate (~> 6.4)
   importmap-rails
   jbuilder (~> 2.5)
   jquery-rails

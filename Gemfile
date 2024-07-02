@@ -88,3 +88,5 @@ gem "sidekiq", "~> 7.2"
 
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem "chartkick", "~> 5.0"
+
+gem "groupdate", "~> 6.4"
