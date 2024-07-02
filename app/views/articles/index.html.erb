@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="align-items-center">
+    <h1><span style="color: #D33D39">G</span><span style="color: #34A853">a</span><span style="color: #4285F4">g</span><span style="color: #FBBC05">g</span><span style="color: #EA4335">l</span><span style="color: #4285F4">e</span></h1>
+      <%= form_with url: search_articles_path, method: :post do |form| %>
+        <%= form.search_field :search, oninput: 'this.form.requestSubmit()', style:'width: 100%;' %>
+      <% end %>
+  </div>
+  <br />
+  <div id="results">
+  </div>
+</div>
