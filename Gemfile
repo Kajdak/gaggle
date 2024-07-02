@@ -26,9 +26,6 @@ gem 'coffee-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
-
 # Use postgresql as the database for Active Record
 gem 'pg'
 
@@ -90,3 +87,4 @@ end
 gem "sidekiq", "~> 7.2"
 
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem "chartkick", "~> 5.0"

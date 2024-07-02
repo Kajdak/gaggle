@@ -1,5 +1,5 @@
 FROM ruby:3.3.0-alpine
-ENV BUNDLER_VERSION=2.4.22
+ENV BUNDLER_VERSION=2.5.14
 
 RUN apk add --update --no-cache \
     bash \
